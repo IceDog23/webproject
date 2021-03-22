@@ -1,0 +1,65 @@
+body {
+    font-family: "Source Sans Pro";
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 900;
+    margin: 2rem;
+  }
+  
+  h5 {
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .menu {
+    position: relative;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1024px;
+  }
+  
+  .title {
+    position: relative;
+    padding: 10px;
+    font-weight: 700;
+  }
+  
+  .title span {
+    position: relative;
+    background: #fff;
+    padding: 0 15px 0 0;
+  }
+  
+  .title .price {
+    float: right;
+    padding: 0 0 0 15px;
+    color: red;
+  }
+  
+  .title:before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    height: 1px;
+    border-top: 2px dotted rgba(0, 0, 0, 0.3);
+    display: block;
+    content: '';
+  }
+  
+  @media (min-width: 420px) {
+    article {
+      width: 50%;
+      float: left;
+    }
+  }
+  
+  article p {
+    margin: 0;
+    padding: 0 10px 10px;
+  }
+  
+  
