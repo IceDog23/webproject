@@ -1,6 +1,6 @@
 
 //Copy your url here
-const publicSpreadSheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQOp71_xOmlKhUfqCOXLtI4IYy5-kRDrvXe6gnWqdKMCXFUGzWGXjBX6R_fQUxD4Ujoz6TS9SD214FG/pub?gid=0&single=true&output=csv'
+const publicSpreadSheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQOp71_xOmlKhUfqCOXLtI4IYy5-kRDrvXe6gnWqdKMCXFUGzWGXjBX6R_fQUxD4Ujoz6TS9SD214FG/pub?output=csv'
 
 function init() {
     Papa.parse(publicSpreadSheetUrl , {
